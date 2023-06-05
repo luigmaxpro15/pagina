@@ -1,0 +1,42 @@
+header {
+    border: 1px solid red;
+    width: 1000px ;
+    height: 100px;
+    text-align: center;
+    
+}
+@media (max-width: 375px) {
+    header{background-color: blue;}
+    
+
+}
+@media (min-width: 768px) and (orientation: landscape) {
+    header{background-color: rgba(39, 212, 53, 0.411);}
+
+}
+@media (min-width: 1000px) {
+    header{background-color: aqua;}
+}
+header img{ 
+    height: 100px;
+    float: left;
+    display: inline;
+    
+}
+ul li{
+    
+    width: 100px;
+    display: inline;
+    margin-right: 15px;
+    float: right
+
+}
+
+@media (min-width: 768px) and (orientation: landscape) {
+    header img{ 
+        height: 100px;
+        float: left;
+        display: none;
+        
+    }  
+}
